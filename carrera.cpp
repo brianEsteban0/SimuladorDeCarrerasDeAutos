@@ -32,7 +32,7 @@ void carrera(int id, int distancia_total)
 
         {
             lock_guard<mutex> lock(mtx); // Bloquear la consola para asegurar el output
-            cout << "Auto" << id << " avanza " << avance << " metros (total: "
+            cout << "Auto" << id + 1 << " avanza " << avance << " metros (total: "
                 << total_avance << " metros)" << endl;
         }
 
@@ -43,7 +43,7 @@ void carrera(int id, int distancia_total)
         lock_guard<mutex> lock(mtx); // Bloquear para asegurar los resultados
         lugar = posiciones.size() + 1;
         posiciones.push_back({id, lugar});
-        cout << "Auto" << id << " termina la carrera en el lugar " << lugar << "!" << endl;
+        cout << "Auto" << id + 1 << " termina la carrera en el lugar " << lugar << "!" << endl;
     }
 }
 
@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
     int distancia_total = stoi(argv[1]);
     int numero_autos = stoi(argv[2]);
 
-    cout << "Distancia total de la carrera: " << distancia_total << "metros." << endl;
+    cout << "Distancia total de la carrera: " << distancia_total << " metros." << endl;
     cout << "----------------------------------\n" << endl;
     srand(time(nullptr)); // Inicializar semilla aleatoria
 
@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
     cout << "--------------" << endl;
     for (const auto &p : posiciones)
     {
-        cout << p.second << "      Auto: " << p.first << endl;
+        cout << p.second << "      Auto: " << p.first + 1 << endl;
     }
 
     return 0;
