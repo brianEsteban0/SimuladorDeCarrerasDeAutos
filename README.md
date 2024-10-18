@@ -62,7 +62,7 @@ Lugar  Auto
 
 ```
 
--En este ejemplo se asigno 20 metros a la distanncia de la carrera y que van a participar 4 Autos
+-En este ejemplo se asigno 20 metros a la distanncia de la carrera y participan 4 autos
 
 # Integrantes
 ·Brian Esteban Alarcon Vergara
