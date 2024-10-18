@@ -65,5 +65,5 @@ Lugar  Auto
 -En este ejemplo se asigno 20 metros a la distanncia de la carrera y participan 4 autos
 
 # Integrantes
-·Brian Esteban Alarcon Vergara
+·Brian Esteban Alarcon Vergara\
 ·Juan Carlos Francisco Poveda
