@@ -1,9 +1,9 @@
 # SimuladorDeCarrerasDeAutos
 ## Instalacion 
--Clone el repositorio
--En el repositorio se encuentra un makefile
--En la terminal muevase donde tiene el repositorio
--Ejecute el makefile escribiendo "make" en la terminal
+-Clone el repositorio\
+-En el repositorio se encuentra un makefile\
+-En la terminal muevase donde tiene el repositorio\
+-Ejecute el makefile escribiendo "make" en la terminal\
 -Esto compilara el archivo carrera.cpp en un archivo llamado "simuladorDeCarreraDeAutos"
 
 ## Ejecucion
